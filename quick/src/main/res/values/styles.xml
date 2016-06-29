@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--侧滑返回的最上级页面的theme设置成该style-->
+    <style name="AppThemeNotTranslucent" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+</resources>
