@@ -6,9 +6,8 @@ import butterknife.ButterKnife;
 import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
 
 /**
- * @author: iTrojan
+ * @author: shun
  * @date: 2016-06-29 15:51
- * @GitHub: https://github.com/itrojan
  */
 public abstract class BaseSwipeBackActivity extends SwipeBackActivity {
 

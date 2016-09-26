@@ -1,12 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.3"
-
+    compileSdkVersion 24
+    buildToolsVersion '24.0.2'
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 23
+        minSdkVersion 9
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -16,16 +15,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    //简化findviewbyid
-    compile 'com.jakewharton:butterknife:7.0.1'
-    //侧滑动返回
-    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
-    //状态栏改色
-    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.jakewharton:butterknife:7.0.1'//简化findviewbyid
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'//侧滑动返回
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'//状态栏改色
+    compile 'com.yolanda.nohttp:nohttp:1.0.7'//NoHttp网络请求框架
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
 }

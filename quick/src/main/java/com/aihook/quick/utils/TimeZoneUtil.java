@@ -4,15 +4,13 @@ import java.util.Date;
 import java.util.TimeZone;
 
 /**
- * 不同时区对应的时间处理工具类
- * 
- * @author HuangWenwei
- * 
- * @date 2014年7月31日
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 不同时区对应的时间处理工具类
  */
 public class TimeZoneUtil {
 	/**
-	 * 判断用户的设备时区是否为东八区（中国） 2014年7月31日
+	 * 判断用户的设备时区是否为东八区（中国） 2016年7月31日
 	 * 
 	 * @return
 	 */

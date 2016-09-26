@@ -3,19 +3,18 @@ package com.aihook.quick.app;
 import android.os.Bundle;
 
 import com.aihook.quick.ui.BaseActivity;
-import com.aihook.quick.utils.ToastUtil;
+import com.aihook.quick.utils.Toastor;
 
-import butterknife.Bind;
 import butterknife.OnClick;
 
 public class LoginActivity extends BaseActivity {
 
-    private ToastUtil toast;
+    private Toastor toast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        toast = new ToastUtil();
+        toast = new Toastor();
     }
 
     @Override

@@ -6,9 +6,8 @@ import android.os.Bundle;
 import butterknife.ButterKnife;
 
 /**
- * @author: iTrojan
+ * @author: shun
  * @date: 2016-06-29 15:51
- * @GitHub: https://github.com/itrojan
  */
 public abstract class BaseActivity extends Activity {
 

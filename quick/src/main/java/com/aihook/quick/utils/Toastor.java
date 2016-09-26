@@ -6,9 +6,8 @@ import android.widget.Toast;
 import com.aihook.quick.MainApp;
 
 /**
- * @author: iTrojan
+ * @author: shun
  * @date: 2016-06-29 16:19
- * @GitHub: https://github.com/itrojan
  */
 public class Toastor {
 
@@ -53,11 +52,9 @@ public class Toastor {
         return Toast.makeText(mContext, text, Toast.LENGTH_LONG);
     }
 
-
     public void showShortToast(int resId) {
         getShortToast(resId).show();
     }
-
 
     public void showShortToast(String text) {
         getShortToast(text).show();

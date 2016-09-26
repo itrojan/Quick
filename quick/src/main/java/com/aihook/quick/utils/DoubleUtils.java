@@ -2,6 +2,11 @@ package com.aihook.quick.utils;
 
 import java.math.BigDecimal;
 
+/**
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 双精度处理工具
+ */
 public class DoubleUtils {
 
 	// 默认除法运算精度

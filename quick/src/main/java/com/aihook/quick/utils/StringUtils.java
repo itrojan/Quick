@@ -18,10 +18,9 @@ import java.util.TimeZone;
 import java.util.regex.Pattern;
 
 /**
- * 字符串操作工具包
- * 
- * @version 1.0
- * @created 2012-3-21
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 字符串操作工具包
  */
 public class StringUtils {
 	private final static Pattern emailer = Pattern

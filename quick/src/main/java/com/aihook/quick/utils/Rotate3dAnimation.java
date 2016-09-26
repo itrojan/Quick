@@ -8,6 +8,11 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Transformation;
 
+/**
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 3D旋转
+ */
 public class Rotate3dAnimation extends Animation {
 
 	private final float mFromDegrees;

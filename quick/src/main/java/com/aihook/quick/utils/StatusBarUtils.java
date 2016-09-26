@@ -15,8 +15,9 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Created by lanyun on 16/5/13.
- * 状态栏透明、颜色、字体颜色修改工具类
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 状态栏透明、颜色、字体颜色修改工具类,
  * 使用SystemBarTint库使4.4版本状态栏变色，需要引入第三方库https://github.com/hexiaochun/SystemBarTint
  */
 public class StatusBarUtils {
@@ -122,7 +123,6 @@ public class StatusBarUtils {
         }
 
     }
-
 
     /**
      * 设置状态栏图标为深色和魅族特定的文字风格

@@ -6,6 +6,11 @@ import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+/**
+ * @author: shun
+ * @date: 2016-06-29 16:19
+ * @desc: 网络工具
+ */
 public class NetworkUtils {
 
 	/**
